@@ -1,0 +1,36 @@
+.add-master {
+
+  .back-button {
+    margin-top: 10px;
+    a {
+      color: #ac6262;
+      text-decoration: none;
+      border-radius: 10px;
+      margin-top: 5px;
+      padding: 5px 5px;
+      transition: ease-in-out 100ms;
+      border: 2px solid #ac6262;
+    }
+    a:hover {
+      transition: ease-in-out 100ms;
+      color: #cb1d1d;
+      border: 2px solid #cb1d1d;
+    }
+  }
+
+  .accept-button {
+    transition: ease-in-out 100ms;
+    border: 2px solid #36a722;
+    color: #36a722;
+    margin-top: 10px;
+    background: none;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .accept-button:hover {
+    transition: ease-in-out 100ms;
+    border: 2px solid #387e2c;
+    color: #387e2c;
+  }
+}

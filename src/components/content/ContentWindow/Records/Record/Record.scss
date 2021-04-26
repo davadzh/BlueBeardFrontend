@@ -1,0 +1,31 @@
+.deleteClientButton {
+  transition: ease-in-out 100ms;
+  border: 2px solid #c35a5a;
+  color: #c35a5a;
+  margin-top: 10px;
+  background: none;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.deleteClientButton:hover {
+  transition: ease-in-out 100ms;
+  border: 2px solid #cf7878;
+  color: #cf7878;
+}
+
+.accepted-record {
+  color: #ae924c;
+}
+.free-record {
+  color: #76ae4c;
+}
+
+.add-customer-to-record {
+  transition: ease-in-out 100ms;
+  color: #76ae4c;
+}
+.add-customer-to-record:hover {
+  transition: ease-in-out 100ms;
+  color: #a1d079;
+}

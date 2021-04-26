@@ -1,0 +1,17 @@
+.auth-header-navbar {
+  float: right;
+
+  .logout-link {
+    border: none;
+    background: none;
+    font-size: 16px;
+    line-height: 30px;
+    cursor: pointer;
+    color: #fafafa;
+    transition: ease-in-out 100ms;
+  }
+  .logout-link:hover {
+    color: #d2d2d2;
+    transition: ease-in-out 100ms;
+  }
+}

@@ -1,0 +1,96 @@
+.masters {
+
+  .title-and-add {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 10px;
+
+    h1 {
+      margin: 0;
+    }
+
+    .create-new-master-button {
+      display: flex;
+      a {
+        color: #fafafa;
+        border-radius: 10px;
+        padding: 10px;
+        text-decoration: none;
+        transition: ease-in-out 100ms;
+        background: #3f7c3f;
+      }
+      a:hover {
+        transition: ease-in-out 100ms;
+        background: #2c5a2c;
+      }
+    }
+  }
+
+
+  .search-input {
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    padding: 3px;
+    width: 100%;
+    margin: 5px 0 10px 0;
+  }
+
+  .master-separated {
+    background: #103959;
+    padding: 20px;
+    margin: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .master-separated-info {
+      padding: 0;
+      margin: 10px 0;
+      li {
+        list-style: none;
+      }
+    }
+    .edit-and-delete {
+      text-align: center;
+
+      .edit-button {
+        padding: 5px;
+        border-radius: 10px;
+        cursor: pointer;
+        width: auto;
+        transition: ease-in-out 100ms;
+        border: 2px solid #9f5c31;
+
+        img {
+          height: 30px;
+        }
+      }
+      .edit-button:hover {
+        transition: ease-in-out 100ms;
+        background: #9f5c31;
+      }
+      .delete-button {
+        padding: 5px 10px;
+        border-radius: 10px;
+        cursor: pointer;
+        width: auto;
+        transition: ease-in-out 100ms;
+        background: none;
+        border: 2px solid #862b2b;
+        margin-bottom: 10px;
+
+
+        img {
+          height: 30px;
+        }
+      }
+      .delete-button:hover {
+        transition: ease-in-out 100ms;
+        background: #862b2b;
+      }
+    }
+  }
+
+}
